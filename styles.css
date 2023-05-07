@@ -7,9 +7,14 @@
     justify-content: center;
 }
 .fa-bars{
-    display:flex;
+    display:flex !important;
     justify-content: right;
     padding: 30px;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer{

@@ -5,15 +5,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .fa-bars{
-    display:flex !important;
+    display:flex;
     justify-content: right;
     padding: 30px;
 }
-.texto{
-    display: flex;
-    align-items: center;
+.profile{
+    max-width: 320px;
+    text-align: center;
+}
+.imagen{
+    width:150px;
+    border-radius: 50%;
     justify-content: center;
 }
 

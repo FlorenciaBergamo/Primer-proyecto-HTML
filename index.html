@@ -5,25 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/554441b923.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="container"> 
+
+<body> 
+
+<!-- Menu con drawer / Preguntar al profe como hacer que la lista se despliegue a la derecha, debajo del botón -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">HOLA!</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Conocimientos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sobre mí</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Profile -->
+    <div class="container1 container-md"> 
         <div class="profile">
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <img src="profilepicture.png" alt="Profile picture" class="imagen">
+          <br></br>
+            <img src="profilepicture.png" class="imagen" alt="Profile picture">
             <h1>Florencia Bérgamo</h1>
-            <h3>Desarrolladora WEB FRONT-END</h3>
+            <h3>Diseñadora UX/UI</h3>
+            <br></br>
         </div>
     </div>
 
+<!-- Carousel -->
+    <div class="container container-md">
+      <h3>Portfolio</h3>
+     <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="vetapp.jpg" class="d-block w-100" alt="imagen1">
+          </div>
+          <div class="carousel-item">
+            <img src="osdeapp.png" class="d-block w-100" alt="imagen2">
+          </div>
+          <div class="carousel-item">
+            <img src="vetapp.jpg" class="d-block w-100" alt="imagen3">
+          </div> 
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
+
+<br></br>
+
+
 <div class="footer">
-    <footer> Gracias por visitar mi página!</footer>
+     <footer> Gracias por visitar mi página!</footer>
 </div>
 
 

@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.logo{
+    height: 30px; 
+    justify-content: center;
+}
+
 .titulos{
     justify-content:left;
     background: rgb(255, 237, 252);
